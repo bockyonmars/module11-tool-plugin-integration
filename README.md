@@ -73,20 +73,3 @@ or:
 ```bash
 python insight_agent.py --path data/sample_docs/patient_access_policy.pdf
 ```
-
-## What to Submit
-
-Run the demo before pushing.
-
-Submit:
-
-```text
-insight_agent.py
-requirements.txt
-README.md
-data/sample_docs/
-output/insights.json
-output/insights_report.md
-```
-
-Do not upload `.venv`.
