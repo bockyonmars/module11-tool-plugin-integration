@@ -1,0 +1,94 @@
+[
+  {
+    "file_name": "incident_report.txt",
+    "file_type": "txt",
+    "title": "Incident Report: Lab Result Delay",
+    "owner_or_vendor": "Operations Team",
+    "priority": "High",
+    "dates": [
+      "2026-07-18"
+    ],
+    "money_values": [],
+    "word_count": 95,
+    "sentence_count": 9,
+    "estimated_reading_minutes": 0.47,
+    "key_points": [
+      "Incident Report: Lab Result Delay\n\nDate: 2026-07-18\nOwner: Operations Team\nPriority: High\n\nSeveral patients complained that their lab results were not visible after sample collection.",
+      "The issue occurred because results were marked as pending even after technician completion.",
+      "The clinical review step was not clearly explained to patients.",
+      "Risks:\n- Patient frustration may increase."
+    ],
+    "risks": [
+      "Patient frustration may increase.",
+      "Support tickets may rise.",
+      "Hospitals may lose confidence in the digital record system."
+    ],
+    "action_items": [
+      "Update patient-facing result status labels.",
+      "Add an explanation for pending, reviewed, and completed results.",
+      "Train support staff to explain the result workflow."
+    ]
+  },
+  {
+    "file_name": "patient_access_policy.pdf",
+    "file_type": "pdf",
+    "title": "Patient Access Policy",
+    "owner_or_vendor": "Compliance Team",
+    "priority": "Medium",
+    "dates": [
+      "2026-07-21"
+    ],
+    "money_values": [],
+    "word_count": 80,
+    "sentence_count": 8,
+    "estimated_reading_minutes": 0.4,
+    "key_points": [
+      "Patient Access Policy\nDate: 2026-07-21\nOwner: Compliance Team\nPriority: Medium\nPatients may request copies of visit summaries, prescriptions, and laboratory reports.",
+      "Staff must verify the patient's identity before releasing medical records.",
+      "Access requests should be completed within the hospital's approved timeline.",
+      "Risks:\n- Identity verification failures may expose private records."
+    ],
+    "risks": [
+      "Identity verification failures may expose private records.",
+      "Delayed responses may create patient complaints."
+    ],
+    "action_items": [
+      "Confirm identity before record release.",
+      "Log all record access requests.",
+      "Escalate delayed access requests to compliance staff."
+    ]
+  },
+  {
+    "file_name": "vendor_contract.txt",
+    "file_type": "txt",
+    "title": "Vendor Contract Review Notes",
+    "owner_or_vendor": "BrightPath Diagnostics",
+    "priority": "Not specified",
+    "dates": [
+      "2026-07-20",
+      "2026-12-31"
+    ],
+    "money_values": [
+      "$24,000"
+    ],
+    "word_count": 88,
+    "sentence_count": 9,
+    "estimated_reading_minutes": 0.44,
+    "key_points": [
+      "Vendor Contract Review Notes\n\nDate: 2026-07-20\nVendor: BrightPath Diagnostics\nContract Value: $24,000\nRenewal Date: 2026-12-31\n\nThe vendor will provide laboratory integration support and monthly maintenance.",
+      "The contract requires a 30-day notice before termination.",
+      "The vendor must respond to high-priority incidents within 4 hours.",
+      "Risks:\n- The service-level agreement does not define penalties for late responses."
+    ],
+    "risks": [
+      "The service-level agreement does not define penalties for late responses.",
+      "Data ownership language is unclear.",
+      "Security review is required before production access."
+    ],
+    "action_items": [
+      "Add late-response penalties.",
+      "Clarify patient data ownership.",
+      "Complete a security review before deployment."
+    ]
+  }
+]

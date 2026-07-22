@@ -1,0 +1,18 @@
+Vendor Contract Review Notes
+
+Date: 2026-07-20
+Vendor: BrightPath Diagnostics
+Contract Value: $24,000
+Renewal Date: 2026-12-31
+
+The vendor will provide laboratory integration support and monthly maintenance. The contract requires a 30-day notice before termination. The vendor must respond to high-priority incidents within 4 hours.
+
+Risks:
+- The service-level agreement does not define penalties for late responses.
+- Data ownership language is unclear.
+- Security review is required before production access.
+
+Recommended Actions:
+- Add late-response penalties.
+- Clarify patient data ownership.
+- Complete a security review before deployment.
